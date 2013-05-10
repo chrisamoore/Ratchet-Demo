@@ -11,9 +11,16 @@
 	- [https://github.com/php-fig/fig-standards/blob/master/accepted/PSR-0.md](https://github.com/php-fig/fig-standards/blob/master/accepted/PSR-0.md)
 
 ### To Use
+If its the First Time Use: 
+		
+		composer install
+		
+Else: 
+		
+		copmoser update
 
 Cd into Root and run in Terminal: 
-	
+			
 		php bin/XX-server.php
 		
 Open 2 browsers and in the consoles Run:

@@ -10,8 +10,9 @@ use MyApp\Wamp;
     $server = IoServer::factory(
         new WsServer(
             new WampServer(
-                new BasicPubSub
+                new BasicPubSub() // failing to load
             )
         )
+        , 8080
     );
     $server->run();

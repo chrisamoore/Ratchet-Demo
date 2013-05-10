@@ -2,6 +2,7 @@
 namespace MyApp;
 use Ratchet\ConnectionInterface as Conn;
 
+
 /**
  * When a user publishes to a topic all clients who have subscribed
  * to that topic will receive the message/event from the publisher

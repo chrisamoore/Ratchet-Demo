@@ -3,7 +3,7 @@
 use Ratchet\Wamp\WampServer;
 use Ratchet\Server\IoServer;
 use Ratchet\WebSocket\WsServer;
-use MyApp\Wamp;
+use MyApp\Wamp\BasicPubSub;
 
     require dirname(__DIR__) . '/vendor/autoload.php';
 
@@ -13,6 +13,6 @@ use MyApp\Wamp;
                 new BasicPubSub() // failing to load
             )
         )
-        , 8080
+      , 8080
     );
     $server->run();
